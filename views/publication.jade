@@ -1,0 +1,17 @@
+doctype
+html
+  head
+    title Publication
+    link(rel='stylesheet', href='/css/publication.css')
+  body
+    img(src= photo) 
+    .news-container
+      .wysiwyg-block 
+        .news-page
+            .Date #{publishDate}
+            .Title #{publicationLanguagesHTML[0].name}
+        !{publicationLanguagesHTML[0].description} 
+      .sidebar
+        block sidebar
+    footer
+     

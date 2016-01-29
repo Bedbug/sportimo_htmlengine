@@ -1,0 +1,32 @@
+{
+  "name": "sportimo-htmlengine",
+  "description": "sportimo-htmlengine app description here",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "latest",
+    "errorhandler": "latest",
+    "express": "latest",
+    "handlebars": "^4.0.5",
+    "jade": "latest",
+      "ejs": "latest",
+    "method-override": "latest",
+    "moment": "^2.11.1",
+    "mongoose": "latest",
+    "morgan": "latest"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-mocha-test": "latest",
+    "bower": "latest",
+    "supertest": "latest",
+    "mocha": "latest",
+    "grunt-open": "^0.2.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express-server": "^0.4.17",
+    "load-grunt-tasks": "^0.4.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
