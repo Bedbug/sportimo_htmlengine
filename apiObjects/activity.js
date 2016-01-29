@@ -1,6 +1,6 @@
 // Module dependencies.
 var mongoose = require('mongoose'),
-Item = mongoose.models.Item,
+Activity = mongoose.models.Activities,
 api = {};
 
 //Common Callback Function Utility
@@ -12,34 +12,37 @@ var cbf=function(cb,err,data){
 };
 
 // ALL
-api.getAllItems = function (cb) {
-  return Item.find(function(err, items) {
+api.getAllActivities = function (cb) {
+  return Activity.find(function(err, items) {
     cbf(cb,err,items);    
   });
 };
 
 // GET
-api.getItem = function (id,cb) {
-  Item.findOne({ '_id': id }, function(err, item) {
+api.getActivity = function (id,cb) {
+    
+   
+    
+  Activity.findOne({ '_id': id }, function(err, item) { 
     cbf(cb,err,item);
   });
 };
 
 //Some
-api.getItems = function (offset,limit,cb) {
-  return Item.find({ skip: offset, limit: limit },function(err, items) {
+api.getActivities = function (offset,limit,cb) {
+  return Activity.find({ skip: offset, limit: limit },function(err, items) {
     cbf(cb,err,items);    
   });
 };
 
 // POST
-api.addItem = function (item,cb) {
+api.addActivity = function (item,cb) {
 
   if(item == 'undefined'){
-    cb('No Item Provided. Please provide valid item data.');
+    cb('No Activity Provided. Please provide valid item data.');
   }
 
-  item = new Item(item);
+  item = new Activity(item);
 
   item.save(function (err) {
     cbf(cb,err,item.toObject());
@@ -47,8 +50,8 @@ api.addItem = function (item,cb) {
 };
 
 // PUT
-api.editItem = function (id,updateData, cb) {
-  Item.findById(id, function (err, item) {
+api.editActivity = function (id,updateData, cb) {
+  Activity.findById(id, function (err, item) {
 
     
     
@@ -68,8 +71,8 @@ api.editItem = function (id,updateData, cb) {
 };
 
 // DELETE
-api.deleteItem = function (id,cb) {
-  return Item.findById(id, function (err, item) {
+api.deleteActivity = function (id,cb) {
+  return Activity.findById(id, function (err, item) {
     return item.remove(function (err) {
       cbf(cb,err,true);      
     });

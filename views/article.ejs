@@ -10,7 +10,7 @@
     <div id="mainpage">
       <div>
         <div id="background">
-          <div id="background_image" style="background-image: url('<%= photo %>');"></div>
+          <div id="background_image" style="background-image: url('<%= image %>');"></div>
           <div id="front_box">
            
             
@@ -20,10 +20,12 @@
          <div class="news-container">
              <div class="wysiwyg-block"> 
                  <div class="news-page">
-                     <div class="Date"><%=publishDate %></div>
-                     <div class="Title"><%=publicationLanguagesHTML[0].name %></div>
+                     <div class="Date"><%= formateddate %></div>
+<!--                     <div class="Title"></div> -->
+                     <div class="text-block"> <%- text %></div>
                  </div>
-             <%- publicationLanguagesHTML[0].description %>
+                 
+            
              
             </div>
         </section>

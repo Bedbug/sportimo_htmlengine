@@ -3,6 +3,9 @@
 body {
    overflow-y: scroll;
     overflow-scrolling: touch;
+     font-family: "Exo_2", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
 }
 body::-webkit-scrollbar { 
   /* This is the magic bit */
@@ -39,10 +42,22 @@ p{
    
 }
 
+.text-block{
+    font-family: "Exo_2", sans-serif;
+    font-size: 35px;
+    line-height: 54px;
+    margin: 0 auto;
+    padding: 0 50px 60px 50px;
+}
+
 .news-container{
 padding: 20px;
 }
-
+.news-page{
+     font-family: "Exo_2", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
 
 /*
 .wysiwyg-block p {
@@ -3211,8 +3226,8 @@ The control icons are from a custom font. Each icon corresponds to a character
 */
 @font-face {
   font-family: 'VideoJS';
-  src: url('/common/fonts/vjs/vjs.eot');
-  src: url('/common/fonts/vjs/vjs.eot?#iefix') format('embedded-opentype'), url('/common/fonts/vjs/vjs.woff') format('woff'), url('/common/fonts/vjs/vjs.ttf') format('truetype'), url('/common/fonts/vjs/vjs.svg#icomoon') format('svg');
+  src: url('(http://www.fclm.ru/common/fonts/vjs/vjs.eot');
+  src: url('(http://www.fclm.ru/common/fonts/vjs/vjs.eot?#iefix') format('embedded-opentype'), url('(http://www.fclm.ru/common/fonts/vjs/vjs.woff') format('woff'), url('(http://www.fclm.ru/common/fonts/vjs/vjs.ttf') format('truetype'), url('(http://www.fclm.ru/common/fonts/vjs/vjs.svg#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -3644,7 +3659,7 @@ easily in the skin designer. http://designer.videojs.com/
 .vjs-default-skin .vjs-big-play-button {
   width: 122px;
   height: 122px;
-  background: url("/common/img/play.png") no-repeat top center;
+  background: url("(http://www.fclm.ru/common/img/play.png") no-repeat top center;
   top: 0;
   right: 0;
   bottom: 0;
@@ -3682,7 +3697,7 @@ easily in the skin designer. http://designer.videojs.com/
 .vjs-default-skin .vjs-big-play-button:hover {
   width: 122px;
   height: 122px;
-  background: url("/common/img/play-hover.png") no-repeat top center;
+  background: url("(http://www.fclm.ru/common/img/play-hover.png") no-repeat top center;
 }
 /* Optionally center */
 .vjs-default-skin.vjs-big-play-centered .vjs-big-play-button {
@@ -3722,7 +3737,7 @@ easily in the skin designer. http://designer.videojs.com/
 .vjs-default-skin:hover .vjs-big-play-button {
   width: 122px;
   height: 122px;
-  background: url("/common/img/play-hover.png") no-repeat top center;
+  background: url("(http://www.fclm.ru/common/img/play-hover.png") no-repeat top center;
 }
 .vjs-default-skin .vjs-big-play-button:before {
   content: "\e001";
@@ -4229,7 +4244,7 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   text-transform: uppercase;
 }
 .ie8 .border-radius {
-  behavior: url(/common/PIE.htc);
+  behavior: url((http://www.fclm.ru/common/PIE.htc);
 }
 @keyframes infiniteRun {
   0% {
@@ -4561,132 +4576,132 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 }
 @font-face {
   font-family: "Rub";
-  src: url("/common/fonts/rub/rouble.eot");
-  src: local("Rub"), local("Rub"), url("/common/fonts/rub/rouble.woff") format("woff"), url("/common/fonts/rub/rouble.ttf") format("truetype"), url("/common/fonts/rub/rouble.svg#ALSRubl") format("svg");
+  src: url("(http://www.fclm.ru/common/fonts/rub/rouble.eot");
+  src: local("Rub"), local("Rub"), url("(http://www.fclm.ru/common/fonts/rub/rouble.woff") format("woff"), url("(http://www.fclm.ru/common/fonts/rub/rouble.ttf") format("truetype"), url("(http://www.fclm.ru/common/fonts/rub/rouble.svg#ALSRubl") format("svg");
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_600italic-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_600italic-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_600italic-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_600italic-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_600italic-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_600italic-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_600italic-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_600italic-webfont.ttf) format("truetype");
   font-weight: 600;
   font-style: italic;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_600-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_600-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_600-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_600-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_600-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_600-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_600-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_600-webfont.ttf) format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_500italic-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_500italic-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_500italic-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_500italic-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_500italic-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_500italic-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_500italic-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_500italic-webfont.ttf) format("truetype");
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_300italic-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_300italic-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_300italic-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_300italic-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_300italic-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_300italic-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_300italic-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_300italic-webfont.ttf) format("truetype");
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_500-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_500-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_500-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_500-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_500-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_500-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_500-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_500-webfont.ttf) format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_300-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_300-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_300-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_300-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_300-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_300-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_300-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_300-webfont.ttf) format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_200-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_200-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_200-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_200-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_200-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_200-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_200-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_200-webfont.ttf) format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_200italic-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_200italic-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_200italic-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_200italic-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_200italic-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_200italic-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_200italic-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_200italic-webfont.ttf) format("truetype");
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_100italic-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_100italic-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_100italic-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_100italic-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_100italic-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_100italic-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_100italic-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_100italic-webfont.ttf) format("truetype");
   font-weight: 100;
   font-style: italic;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_100-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_100-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_100-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_100-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_100-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_100-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_100-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_100-webfont.ttf) format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_800italic-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_800italic-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_800italic-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_800italic-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_800italic-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_800italic-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_800italic-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_800italic-webfont.ttf) format("truetype");
   font-weight: 800;
   font-style: italic;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_700italic-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_700italic-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_700italic-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_700italic-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_700italic-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_700italic-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_700italic-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_700italic-webfont.ttf) format("truetype");
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_700-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_700-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_700-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_700-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_700-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_700-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_700-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_700-webfont.ttf) format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_regular-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_regular-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_regular-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_regular-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_regular-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_regular-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_regular-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_regular-webfont.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_900-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_900-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_900-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_900-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_900-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_900-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_900-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_900-webfont.ttf) format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_900italic-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_900italic-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_900italic-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_900italic-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_900italic-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_900italic-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_900italic-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_900italic-webfont.ttf) format("truetype");
   font-weight: 900;
   font-style: italic;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_800-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_800-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_800-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_800-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_800-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_800-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_800-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_800-webfont.ttf) format("truetype");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: 'Exo_2';
-  src: url(/common/fonts/exo2/exo_2_italic-webfont.eot);
-  src: url(/common/fonts/exo2/exo_2_italic-webfont.eot?#iefix) format("embedded-opentype"), url(/common/fonts/exo2/exo_2_italic-webfont.woff) format("woff"), url(/common/fonts/exo2/exo_2_italic-webfont.ttf) format("truetype");
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_italic-webfont.eot);
+  src: url((http://www.fclm.ru/common/fonts/exo2/exo_2_italic-webfont.eot?#iefix) format("embedded-opentype"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_italic-webfont.woff) format("woff"), url((http://www.fclm.ru/common/fonts/exo2/exo_2_italic-webfont.ttf) format("truetype");
   font-weight: 400;
   font-style: italic;
 }
@@ -6337,7 +6352,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   user-select: none;
   width: 18px;
   height: 18px;
-  background: #fff url("/common/img/ico-radio.png") 0 -18px no-repeat;
+  background: #fff url("(http://www.fclm.ru/common/img/ico-radio.png") 0 -18px no-repeat;
   left: 0;
   top: 1px;
 }
@@ -6400,7 +6415,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   user-select: none;
   width: 18px;
   height: 18px;
-  background: #fff url("/common/img/ico-radio.png") 0 -18px no-repeat;
+  background: #fff url("(http://www.fclm.ru/common/img/ico-radio.png") 0 -18px no-repeat;
   left: 0;
   top: 1px;
 }
@@ -7096,8 +7111,8 @@ h6 {
 }
 .page .body-wrap {
   background-color: #2e735c;
-  background-image: url('/common/img/bg2-green.png');
-  background-image: url('/common/img/bg3-transparent.png'), url('/common/img/bg3-gradient.png');
+  background-image: url('(http://www.fclm.ru/common/img/bg2-green.png');
+  background-image: url('(http://www.fclm.ru/common/img/bg3-transparent.png'), url('(http://www.fclm.ru/common/img/bg3-gradient.png');
   background-repeat: repeat, repeat-x;
 }
 .ie8 .page {
@@ -7166,14 +7181,14 @@ h6 {
   position: absolute;
   top: 33px;
   margin-left: -67px;
-  background: url("/common/img/logo.png") no-repeat;
+  background: url("(http://www.fclm.ru/common/img/logo.png") no-repeat;
   width: 167px;
   height: 197px;
   z-index: 3;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .page header .logo {
-    background: transparent url("/common/img/logo@2x.png") no-repeat 50% 50%;
+    background: transparent url("(http://www.fclm.ru/common/img/logo@2x.png") no-repeat 50% 50%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -7299,7 +7314,7 @@ h6 {
   font-size: 12px;
   line-height: 16px;
   text-decoration: none;
-  background: #fff url("/common/img/rzd.png") no-repeat 50% 0;
+  background: #fff url("(http://www.fclm.ru/common/img/rzd.png") no-repeat 50% 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -7313,7 +7328,7 @@ h6 {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .page header .main .promo {
-    background: transparent url("/common/img/rzd@2x.png") #fff no-repeat 50% 0;
+    background: transparent url("(http://www.fclm.ru/common/img/rzd@2x.png") #fff no-repeat 50% 0;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -7729,7 +7744,7 @@ h6 {
 }
 .page footer .main .info .payment {
   margin-bottom: 49px;
-  background: url("/common/img/ico-pay.png") no-repeat;
+  background: url("(http://www.fclm.ru/common/img/ico-pay.png") no-repeat;
   width: 533px;
   height: 47px;
 }
@@ -9258,7 +9273,7 @@ disabled look for disabled choices in the results dropdown
   display: none;
 }
 .select2-more-results.select2-active {
-  background: #f4f4f4 url(/common/img/select2-spinner.gif) no-repeat 100%;
+  background: #f4f4f4 url((http://www.fclm.ru/common/img/select2-spinner.gif) no-repeat 100%;
 }
 .select2-results .select2-ajax-error {
   background: rgba(255, 50, 50, 0.2);
@@ -9334,7 +9349,7 @@ html[dir="rtl"] .select2-container-multi .select2-choices li {
   background: transparent !important;
 }
 .select2-container-multi .select2-choices .select2-search-field input.select2-active {
-  background: #fff url(/common/img/select2-spinner.gif) no-repeat 100% !important;
+  background: #fff url((http://www.fclm.ru/common/img/select2-spinner.gif) no-repeat 100% !important;
 }
 .select2-default {
   color: #999 !important;
@@ -14611,7 +14626,7 @@ header {
   width: 100%;
   height: 100px;
   text-align: center;
-  background: url(/common/img/loader-green.gif) center no-repeat;
+  background: url((http://www.fclm.ru/common/img/loader-green.gif) center no-repeat;
 }
 .shadow-block {
   background-color: #fff;
@@ -14978,7 +14993,7 @@ header {
   background: url("../img/loader-black.gif") 50% 50% no-repeat;
 }
 .photo-place.load {
-  background: url(/common/img/loader-green.gif) 50% 50% no-repeat;
+  background: url((http://www.fclm.ru/common/img/loader-green.gif) 50% 50% no-repeat;
 }
 .photo-place img {
   width: 95px;
@@ -15499,7 +15514,7 @@ strong {
 }
 .scoreboard._disable:after {
   content: '';
-  background: url(/common/img/loader-green.gif) no-repeat center center;
+  background: url((http://www.fclm.ru/common/img/loader-green.gif) no-repeat center center;
   width: 68px;
   height: 15px;
   position: absolute;
@@ -21386,7 +21401,7 @@ span.social-likes__counter_empty:after {
   padding: 32px 40px;
 }
 .club-page .club-header {
-  background: url('../img/loko-club-bg.png') no-repeat top left, url('/common/img/club-header.jpg') no-repeat;
+  background: url('../img/loko-club-bg.png') no-repeat top left, url('(http://www.fclm.ru/common/img/club-header.jpg') no-repeat;
   margin: 0;
   padding: 0;
   min-height: 438px;
@@ -21517,7 +21532,7 @@ span.social-likes__counter_empty:after {
   height: auto;
 }
 .club-page .club-content .sponsor-section {
-  background: #d92127 url('/common/img/club-sponsor-bg.png') no-repeat;
+  background: #d92127 url('(http://www.fclm.ru/common/img/club-sponsor-bg.png') no-repeat;
   width: 100%;
   height: 139px;
   color: #fff;
@@ -23771,7 +23786,7 @@ main {
 .news-box .filter .date:after {
   content: '';
   position: absolute;
-  background-image: url(/common/img/dategray.png);
+  background-image: url((http://www.fclm.ru/common/img/dategray.png);
   width: 19px;
   height: 20px;
   top: 50%;
