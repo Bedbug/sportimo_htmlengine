@@ -2,6 +2,7 @@
 
 HTML template engine and service responsible to render publications and interviews for the platform.
 
-# Run
-
+## Run
+```js
 node app
+```
