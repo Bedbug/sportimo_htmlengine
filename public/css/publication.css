@@ -1,16 +1,44 @@
 @charset "UTF-8";
 
+#background{ 
+  height: 250px;
+}
+
+#background_image{
+  height: 100%;
+  display: block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+iframe {
+    display:block;
+    height: 260px;
+    width: 100%;
+}
+
 body {
+    overflow-x: hidden;
+/*
    overflow-y: scroll;
     overflow-scrolling: touch;
+*/
      font-family: "Exo_2", sans-serif;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 18px;
 }
+/*
 body::-webkit-scrollbar { 
-  /* This is the magic bit */
+   This is the magic bit 
   display: none;
 }
+*/
 
 img{
     width: 100%;
@@ -18,47 +46,78 @@ img{
 
 .Date{
     color: #808080;
-    font-size: 34px;
-    padding: 0 50px 18px 50px;
+    font-size: 20px;
+    padding: 0 15px 18px 15px;
 /*    padding-bottom: 18px;*/
 }
 
 .Title{
     font-weight: bold;
-    font-size: 54px;
-    line-height: 70px;
+    font-size: 25px;
+    line-height: 30px;
     word-break: break-all;
     word-wrap: break-word;
-   padding: 0 50px 60px 50px;
+   padding: 0 15px 20px 15px;
 }
+
+/*
+#background{
+  height: 700px;
+}
+*/
+
 
 p{
     font-family: "Exo_2", sans-serif;
     font-weight: 400;
-    font-size: 35px;
-    line-height: 54px;
+/*    font-size: 20px;*/
+    line-height: 30px;
     margin: 0 auto;
-    padding: 0 50px 60px 50px;
+    padding: 0 15px 25px 15px;
    
 }
 
 .text-block{
     font-family: "Exo_2", sans-serif;
-    font-size: 35px;
-    line-height: 54px;
+    font-size: 18px;
+    line-height: 30px;
     margin: 0 auto;
-    padding: 0 50px 60px 50px;
+    padding: 0 20px 25px 20px;
 }
 
 .news-container{
 padding: 20px;
 }
+
 .news-page{
      font-family: "Exo_2", sans-serif;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 15px;
 }
 
+/*
+.closer{
+        display: block;
+    position: absolute;
+    right: 70px;
+    top: 30px;
+    font-size: 100px;
+    
+    z-index: 99;
+    color: grey;
+}
+*/
+
+.closer a, .closer a:link,.closer a:visited,.closer a:hover{
+    text-decoration: none;
+    color: white;
+        text-shadow: 2px 2px rgba(0,0,0,.5);
+}
+
+.closer a:active{
+    color:white;
+    text-shadow: none;
+}
 /*
 .wysiwyg-block p {
   font-family: "Exo_2", sans-serif;
@@ -74,6 +133,17 @@ padding: 20px;
   font-weight: 600;
 }
 
+/*
+h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
+}
+*/
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -7055,7 +7125,7 @@ i.rub {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 body {
-  font-size: 62.5%;
+/*  font-size: 62.5%;*/
 }
 h1,
 h2,

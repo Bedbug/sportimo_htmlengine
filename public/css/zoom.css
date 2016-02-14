@@ -1,50 +1,3 @@
-body{
-  margin: 0;
-}
-
-
-body {
-   overflow-y: scroll;
-    overflow-scrolling: touch;
-}
-body::-webkit-scrollbar { 
-  /* This is the magic bit */
-  display: none;
-}
-
-img{
-    width: 100%;
-}
-
-.Date{
-    color: #808080;
-    font-size: 34px;
-    padding: 0 50px 18px 50px;
-/*    padding-bottom: 18px;*/
-}
-
-.Title{
-    font-weight: bold;
-    font-size: 54px;
-    line-height: 70px;
-    word-break: break-all;
-    word-wrap: break-word;
-   padding: 0 50px 60px 50px;
-}
-
-p{
-    font-family: "Exo_2", sans-serif;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 54px;
-    margin: 0 auto;
-    padding: 0 50px 60px 50px;
-   
-}
-
-.news-container{
-padding: 20px;
-}
 
 
 #mainpage{
@@ -52,6 +5,7 @@ padding: 20px;
   top: 0;
   bottom: 0;
   width: 100%;
+ 
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
@@ -64,13 +18,15 @@ padding: 20px;
   padding: 20px;
 }
 
+/*
 #mainpage_body p{
   font-family: sans-serif;
   line-height: 1.4;
 }
+*/
 
 #background{
-  height: 700px;
+  height: 460px;
 }
 
 #background_image{

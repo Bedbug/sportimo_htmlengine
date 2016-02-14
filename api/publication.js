@@ -33,6 +33,7 @@ api.addpublication = function (req, res) {
 api.publication = function (req, res) {
     var id = req.params.id;
     var lang = req.params.lang;
+    var plarform = req.params.platform;
 
     publication.getPublication(id, function (err, data) {
         if (err) {
@@ -56,7 +57,8 @@ api.publication = function (req, res) {
                     data.article = data.publicationLanguagesHTML[0];
 
             }
-
+            
+            data.platform = plarform;
             data.publishDate = moment(data.publishDate).format('DD-MM-YYYY HH:mm');
             res.status(200).render('publication', data);
 
@@ -101,6 +103,7 @@ api.deletepublication = function (req, res) {
 router.get('/publications', api.publications);
 router.post('/publication', api.addpublication);
 router.get('/publication/:id/:lang', api.publication);
+router.get('/publication/:id/:lang/:platform', api.publication);
 //
 //router.route('/publication/:id/')
 //.get(api.publication)

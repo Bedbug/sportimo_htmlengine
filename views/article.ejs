@@ -1,38 +1,40 @@
 <!doctype html>
 <html>
-  <head>
-<!--    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />-->
-    
-      <link rel="stylesheet" type="text/css" href="/css/publication.css">
-      <link rel="stylesheet" type="text/css" href="/css/zoom.css">
-  </head>
-  <body>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
+     <link rel="stylesheet" type="text/css" href="/css/zoom.css">
+    <link rel="stylesheet" type="text/css" href="/css/publication.css">
+   
+</head>
+
+<body>
     <div id="mainpage">
-      <div>
-        <div id="background">
-          <div id="background_image" style="background-image: url('<%= image %>');"></div>
-          <div id="front_box">
-           
-            
-          </div>
-        </div>
-        <section id="mainpage_body">
-         <div class="news-container">
-             <div class="wysiwyg-block"> 
-                 <div class="news-page">
-                     <div class="Date"><%= formateddate %></div>
-<!--                     <div class="Title"></div> -->
-                     <div class="text-block"> <%- text %></div>
-                 </div>
-                 
-            
-             
+        <div>
+            <div id="background">
+                <div id="background_image" style="background-image: url('http://ep7t6ae.cloudimg.io/s/cdn/x/<%= image %>');"></div>
             </div>
-        </section>
-      </div>
-    </div>
-    <script src="/js/iscroll.js"></script>
-    <script src="/js/pullAndZoom.js"></script>
-    <script src="/js/app.js"></script>
-  </body>
+            <section id="mainpage_body">
+                <div class="news-container">
+                    <div class="wysiwyg-block">
+                        <div class="news-page">
+                            <div class="Date">
+                                <%= formateddate %>
+                            </div>
+                            <div class="Title">
+                                
+                            </div>
+                        </div>
+                            <%- text %>
+                    </div>
+            </section>
+            </div>
+        </div>
+
+        <script src="/js/iscroll.js"></script>
+        <script src="/js/pullAndZoom.js"></script>
+        <script src="/js/app.js"></script>
+
+</body>
+
 </html>

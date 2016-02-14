@@ -32,6 +32,7 @@ api.addinterview = function (req, res) {
 // GET
 api.interview = function (req, res) {
     var id = req.params.id;
+    
     //    var lang = req.params.lang;
 
     interview.getinterview(id, function (err, data) {
@@ -44,7 +45,7 @@ api.interview = function (req, res) {
                 data.formateddate = "";
                 data.text = "Article not found."
             }
-
+            data.platform = null;
             data.formateddate = moment(data.date).format('DD-MM-YYYY HH:mm');
             res.status(200).render('article', data);
 
@@ -88,7 +89,7 @@ api.deleteinterview = function (req, res) {
 
 router.get('/interviews', api.interviews);
 router.post('/interview', api.addinterview);
-router.get('/interview/:id/:lang', api.interview);
+router.get('/interview/:id/:lang/:platform', api.interview);
 //
 //router.route('/interview/:id/')
 //.get(api.interview)
