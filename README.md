@@ -1,3 +1,3 @@
-# Sportimo_htmlengine
+# Articles Engine
 
-Doc, are you telling me that you built a time machine out of a delorean.
+HTML template engine and service responsible to render publications and interviews for the platform.
