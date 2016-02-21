@@ -58,7 +58,7 @@ api.publication = function (req, res) {
 
             }
             
-            data.platform = plarform;
+          //  data.platform = plarform;
             data.publishDate = moment(data.publishDate).format('DD-MM-YYYY HH:mm');
             res.status(200).render('publication', data);
 
